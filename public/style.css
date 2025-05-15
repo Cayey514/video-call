@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background: #0e0e0e;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  #controls {
+    margin-bottom: 1em;
+  }
+  
+  input {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
+    font-size: 1em;
+    background-color: #00aaff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  video {
+    width: 45%;
+    max-width: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: black;
+  }
+  
